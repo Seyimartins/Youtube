@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+letter-spacing: -0.03rem;
+font-family: "Roboto", sans-serif;
+}
+
+.youtube-container{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.top-container{
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+.top-left-container{
+  width: fit-content;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  column-gap: 0.3rem;
+}
+
+.menu-icon-container{
+  width: fit-content;
+  height: auto;
+}
+
+.menu-icon-container i{
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.youtube-logo-container{
+  width: 96px;
+  height: 24px;
+}
+
+.youtube-logo-container img{
+  width: 100%;
+  height: 100%;
+}
+
+.top-center-container{
+  width: fit-content;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.form{
+  width: fit-content;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.form input{
+  padding: 1rem 1rem 1rem 1.5rem;
+  width: 32rem;
+  border: 1px solid #d4d4d4;
+  border-radius: 12rem 0rem 0rem 12rem;
+  outline: none;
+}
+
+input:focus{
+  border: 1px solid blue;
+}
+
+.search-icon-container{
+  width: fit-content;
+  height: auto;
+  padding: 0.94rem 1.5rem 0.98rem 1.5rem;
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 0rem 12rem 12rem 0rem;
+  cursor: pointer;
+}
+
+.microphone-container{
+  width: fit-content;
+  height: auto;
+  padding: 1rem 1.3rem;
+  background-color: #d7d7d7;
+  border-radius: 12rem;
+  cursor: pointer;
+}
+
+.top-right-container{
+  width: fit-content;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.create-icon-conatiner, .notification-container {
+  font-size: 20px;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.notification-container{
+  padding-right: 1.7rem;
+}
+
+.profile-container{
+  width: fit-content;
+  height: auto;
+  padding: 1rem 1.3rem;
+  background-color: #0fdfb5ec;
+  border-radius: 12rem;
+  font-size: 0.5rem;
+  cursor: pointer;
+}
+
+.bottom-container{
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  /* background-color: aliceblue; */
+}
+
+.sidebar-container{
+  width: 14%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  /* background-color: #f2f2f2; */
+  overflow: scroll;
+}
+
+.first-sidebar-section, .second-sidebar-section, .third-sidebar-section {
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.menu-item-container{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+  justify-content: start;
+  align-items: center;
+  padding: 0.65rem;
+  cursor: pointer;
+}
+
+.menu-item-container:hover{
+  background-color: rgb(247, 247, 247);
+  border-radius: 0.7rem;
+}
+
+.menu-icon-container{
+  width: fit-content;
+  height: auto;
+  font-size: 24px;
+}
+
+.menu-text-container{
+  width: fit-content;
+  height: auto;
+}
+
+.menu-text-container p{
+  font-size: 0.95rem;
+  letter-spacing: 0.001rem;
+}
+
+.you-container{
+width: 100%;
+height: auto;
+display: flex;
+flex-direction: row;
+justify-content: start;
+align-items: center;
+padding: 0.85rem;
+column-gap: 1rem;
+cursor: pointer;
+}
+
+.you-container:hover{
+  background-color: rgb(247, 247, 247);
+  border-radius: 0.7rem;
+}
+.you-text-container, .arrow-container{
+  width: fit-content;
+  height: auto;
+}
+
+.content-container{
+  width: 86%;
+  height: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.categories-container{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  column-gap: 0.4rem;
+  cursor: pointer;
+}
+
+.category{
+  width: fit-content;
+  height: auto;
+  padding: 0.7rem 1rem 0.7rem 1rem;
+  background-color: #f2f2f2;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.2em;
+}
+
+.category:hover{
+  background-color: #e0e0e0;
+}
+
+.category h1{
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+a{
+  color: #424242;
+  text-decoration: none;
+}
+
+.card-container{
+  width: 100%;
+  height: auto;
+  /* background-color: #424242; */
+  padding: 1.6rem 0rem 1.6rem 0rem;
+  border-radius: 0.35rem;
+}
+
+.thumbnail-image-container{
+  width: 100%;
+  height: auto;
+  background-color: aquamarine;
+  padding: 25%;
+  background-image: url(./images/Fields\ of\ Destiny.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.thumbnail-container{
+  width: 25%;
+  height: auto;
+  row-gap: 20rem;
+}
+
+.details-container{
+  width: fit-content;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  column-gap: 1rem;
+  /* padding: 0.7rem; */
+}
+
+.top-other-details{
+  width: fit-content;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  row-gap: 1rem;
+}
+
+.title{
+  width: fit-content;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.title h1{
+  font-size: 1.2rem;
+}
+
+.channel-name-views-date{
+  width: fit-content;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  row-gap: 0.3rem;
+
+}
+
+.channel-name, .views-date{
+  width: fit-content;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.creator-name{
+  width: fit-content;
+  height: auto;
+  padding: 0.7rem 1rem;
+  background-color: #eba40bec;
+  border-radius: 12rem;
+  font-size: 0.5rem;
+  cursor: pointer;
+}
+
+.views-date{
+  width: fit-content;
+  height: auto;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: .3rem;
+}
+
+.views-date i{
+  font-size: 0.3rem;
+}
+
+.channel-name{
+  column-gap: 0.5rem;
+}
