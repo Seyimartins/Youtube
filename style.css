@@ -240,6 +240,7 @@ cursor: pointer;
   align-items: start;
   column-gap: 0.4rem;
   cursor: pointer;
+  padding: 1.5rem 0rem 1.5rem 0rem;
 }
 
 .category{
@@ -269,9 +270,14 @@ a{
 .card-container{
   width: 100%;
   height: auto;
-  /* background-color: #424242; */
+  display: flex;
+  flex-direction: row;
   padding: 1.6rem 0rem 1.6rem 0rem;
   border-radius: 0.35rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 1.5rem;
+  overflow: scroll;
 }
 
 .thumbnail-image-container{
@@ -282,12 +288,15 @@ a{
   background-image: url(./images/Fields\ of\ Destiny.jpg);
   background-position: center;
   background-size: cover;
+  border-radius: 0.7rem;
 }
 
 .thumbnail-container{
-  width: 25%;
+  width: 24%;
   height: auto;
-  row-gap: 20rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.8rem;
 }
 
 .details-container{
@@ -308,7 +317,7 @@ a{
   flex-direction: column;
   justify-content: space-between;
   align-items: start;
-  row-gap: 1rem;
+  row-gap: 0.6rem;
 }
 
 .title{
@@ -316,10 +325,12 @@ a{
   height: auto;
   display: flex;
   flex-direction: row;
+  color: #2b2b2b;
 }
 
 .title h1{
   font-size: 1.2rem;
+  font-weight: 500;
 }
 
 .channel-name-views-date{
@@ -330,7 +341,7 @@ a{
   justify-content: start;
   align-items: start;
   row-gap: 0.3rem;
-
+  color: #515151;
 }
 
 .channel-name, .views-date{
